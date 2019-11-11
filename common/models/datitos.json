@@ -1,0 +1,24 @@
+{
+  "name": "datitos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "fecha": {
+      "type": "date",
+      "required": true,
+      "defaultFn": "$now"
+    },
+    "descripcion": {
+      "type": "string",
+      "required": true,
+      "default": "Se detecto movimiento"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
