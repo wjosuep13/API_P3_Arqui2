@@ -9,7 +9,7 @@
     "fecha": {
       "type": "date",
       "required": true,
-      "defaultFn": "$now"
+      "defaultFn": "now"
     },
     "descripcion": {
       "type": "string",
